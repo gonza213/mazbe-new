@@ -74,7 +74,7 @@
                                     <label for="name" class="font-semibold">Nombre:</label>
                                     <input name="name" id="name" type="text"
                                         class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2"
-                                        placeholder="Nombre :">
+                                        placeholder="Nombre">
                                 </div>
                             </div>
 
@@ -83,7 +83,7 @@
                                     <label for="email" class="font-semibold">Email:</label>
                                     <input name="email" id="email" type="email"
                                         class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2"
-                                        placeholder="Email :">
+                                        placeholder="Email">
                                 </div>
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                                     <label for="subject" class="font-semibold">Asunto:</label>
                                     <input name="subject" id="subject"
                                         class="form-input w-full text-[15px] py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-full outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2"
-                                        placeholder="Asunto :">
+                                        placeholder="Asunto">
                                 </div>
                             </div>
 
@@ -103,7 +103,7 @@
                                     <label for="comments" class="font-semibold">Mensaje:</label>
                                     <textarea name="comments" id="comments"
                                         class="form-input w-full text-[15px] py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded-2xl outline-none border border-gray-200 focus:border-violet-600 dark:border-gray-800 dark:focus:border-violet-600 focus:ring-0 mt-2"
-                                        placeholder="Mensaje :"></textarea>
+                                        placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                         </div>

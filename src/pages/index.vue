@@ -36,12 +36,12 @@
     </div><!--end container fluid-->
 </section><!--end section-->
 <!-- End -->
-<section class="relative md:pb-24 pb-16 -mt-16">
+<section class="relative md:pb-24 pb-16 -mt-16" >
     <div class="container">
         <digital />
     </div>
 
-    <div class="container md:mt-24 mt-16">
+    <div class="container md:mt-24 mt-16" style="background:#7C3AED; padding: 20px; border-radius: 10px;">
         <div class="title-heading text-center mt-16">
             <div class="md:my-0 my-10">
                 <div class="wave-effect relative tracking-tighter mb-6 md:text-5xl text-3xl font-bold text-white">
@@ -56,11 +56,12 @@
                     <span class="relative inline-block me-1" style="--a:9">O</span>
                     <span class="relative inline-block" style="--a:10">N</span>
                 </div>
-                <p class="text-white/70 max-w-xl mx-auto">Próximo evento en Artemisa, calle 50 e/ 9 y 10, ciudad de La Plata</p>
+                <p class="text-white/70 max-w-xl mx-auto">Próximo evento en Artemisa, calle 50 e/ 9 y 10, ciudad de La
+                    Plata</p>
 
                 <div id="countdown">
                     <ul class="count-down list-none inline-block text-white text-center mt-8">
-                        <li id="days" class="count-number inline-block m-2">{{ days }}<p class="count-head">Días
+                        <li id="days" class="count-number inline-block m-2" >{{ days }}<p class="count-head" >Días
                             </p>
                         </li>
                         <li id="hours" class="count-number inline-block m-2">{{ hours }}<p class="count-head">
@@ -75,12 +76,17 @@
                         <li id="end" class="h1"></li>
                     </ul>
                 </div>
+                <div class="mt-6 mb-6">
+                    <a href="https://wa.link/iorvqu" target="_blank" style="background-color: #FFFFFF !important; color: #000"
+                        class="btn bg-violet-600 hover:bg-blue-700 border-violet-600 hover:border-violet-700 text-black rounded-full me-2 mt-2"><i
+                            class="uil uil-qr"></i> Solicitar QR</a>
+                </div>
             </div>
         </div>
 
     </div>
 
-    <div class="container-fluid relative mt-16">
+    <div class="container-fluid relative mt-24" style="margin-top: 40px;">
         <div class="grid grid-cols-1">
             <div
                 class="slider relative overflow-hidden m-auto mb-4 before:content-[''] before:absolute before:top-0 before:start-0 before:z-2 after:content-[''] after:absolute after:top-0 after:end-0 after:z-2">

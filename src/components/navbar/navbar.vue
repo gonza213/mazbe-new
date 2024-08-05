@@ -2,7 +2,7 @@
 <nav id="topnav" class="defaultscroll is-sticky">
     <div class="container">
         <!-- Logo container-->
-        <router-link v-if="logoLight" class="logo ps-0" to="/">
+        <router-link v-if="logoLight" class="logo ps-0 mt-2" to="/">
             <!-- <img src="../../assets/images/logo-icon-28.png" class="inline-block sm:hidden" alt="">
             <div class="sm:block hidden">
                 <span class="inline-block dark:hidden">
@@ -11,9 +11,10 @@
                 </span>
                 <img src="../../assets/images/logo-white.png" height="24" class="hidden dark:inline-block" alt="">
             </div> -->
+            <span class="bg-gradient-to-l from-red-600 to-violet-600 text-transparent bg-clip-text">MAZBE</span>
         </router-link>
 
-        <router-link v-else class="logo ps-0" to="/">
+        <router-link v-else class="logo ps-0 mt-2" to="/">
             <!-- <img src="../../assets/images/logo-icon-28.png" class="inline-block sm:hidden" alt="">
             <div class="sm:block hidden">
                 <img src="../../assets/images/logo-dark.png" class="inline-block dark:hidden h-7" alt="">
