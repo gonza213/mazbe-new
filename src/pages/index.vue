@@ -86,29 +86,32 @@
 
     </div>
 
-    <div class="container-fluid relative mt-24" style="margin-top: 40px;">
-        <div class="grid grid-cols-1">
-            <div
-                class="slider relative overflow-hidden m-auto mb-4 before:content-[''] before:absolute before:top-0 before:start-0 before:z-2 after:content-[''] after:absolute after:top-0 after:end-0 after:z-2">
-                <div class="slide-track flex items-center">
-                    <div v-for="item in images" :key="item" class="slide h-auto md:w-[360px] w-72 mx-2">
-                        <div class="group relative overflow-hidden rounded-lg shadow dark:shadow-gray-800">
-                            <img :src="item.image"
-                                class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500"
-                                alt="">
+    <div class="relative pt-24 overflow-hidden">
 
-                            <!-- <div
-                                class="absolute -bottom-20 group-hover:bottom-1/2 group-hover:translate-y-1/2 start-0 end-0 mx-auto text-center transition-all duration-500">
-                                <router-link :to="{ name: 'item-detail', params: { id: item.id } }"
-                                    class="btn btn-sm rounded-full bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"><i
-                                        class="mdi mdi-gavel"></i> Bid Now</router-link>
-                            </div> -->
+        <div class="container-fluid relative mt-24" style="margin-top: 40px;">
+            <div class="grid grid-cols-1">
+                <div
+                    class="slider relative overflow-hidden m-auto mb-4 before:content-[''] before:absolute before:top-0 before:start-0 before:z-2 after:content-[''] after:absolute after:top-0 after:end-0 after:z-2">
+                    <div class="slide-track flex items-center">
+                        <div v-for="item in images" :key="item" class="slide h-auto md:w-[360px] w-72 mx-2">
+                            <div class="group relative overflow-hidden rounded-lg shadow dark:shadow-gray-800">
+                                <img :src="item.image"
+                                    class="rounded-lg shadow-md dark:shadow-gray-700 group-hover:scale-110 transition-all duration-500"
+                                    alt="">
+    
+                                <!-- <div
+                                    class="absolute -bottom-20 group-hover:bottom-1/2 group-hover:translate-y-1/2 start-0 end-0 mx-auto text-center transition-all duration-500">
+                                    <router-link :to="{ name: 'item-detail', params: { id: item.id } }"
+                                        class="btn btn-sm rounded-full bg-violet-600 hover:bg-violet-700 border-violet-600 hover:border-violet-700 text-white"><i
+                                            class="mdi mdi-gavel"></i> Bid Now</router-link>
+                                </div> -->
+                            </div>
                         </div>
+    
                     </div>
-
-                </div>
-            </div><!--end slider-->
-        </div><!--end grid-->
+                </div><!--end slider-->
+            </div><!--end grid-->
+        </div>
     </div>
 </section>
 <footers />
@@ -169,29 +172,30 @@ const images = [
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825707/Captura_de_pantalla_2024-08-04_234059_wxoy4y.png",
     },
     {
-        id: 13,
+        id: 19,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825524/img-01_2_kzmey4.png",
     },
     {
-        id: 14,
+        id: 20,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825527/img-01_5_glxsj7.png",
     },
     {
-        id: 15,
+        id: 21,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825528/img-01_dtinb5.png",
     },
     {
-        id: 16,
+        id: 22,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825525/img-01_3_rtsukm.png",
     },
     {
-        id: 17,
+        id: 23,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825526/img-01_4_hhsihw.png",
     },
     {
-        id: 18,
+        id: 24,
         image: "https://res.cloudinary.com/dazfmv5ls/image/upload/v1722825707/Captura_de_pantalla_2024-08-04_234059_wxoy4y.png",
-    }
+    },
+   
 ]
 
 
